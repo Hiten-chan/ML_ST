@@ -166,11 +166,11 @@ class MyLineReg:
     #     return f'{__class__.__name__} class: {params}'
 
 
-MyLineReg_1 = MyLineReg(0.1)
-x, y = make_regression(400, 5, noise=5)
-m = MyLineReg_1.fit(pd.DataFrame(x), y)
+# MyLineReg_1 = MyLineReg(0.1)
+# x, y = make_regression(400, 5, noise=5)
+# m = MyLineReg_1.fit(pd.DataFrame(x), y)
 # print(m)
-print(sum(MyLineReg_1.predict(pd.DataFrame(x))))
+# print(sum(MyLineReg_1.predict(pd.DataFrame(x))))
 # print(MyLineReg_1)
 # print(MyLineReg_1.get_coef())
 # print(MyLineReg_1.get_best_score())
